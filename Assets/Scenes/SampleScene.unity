@@ -264,7 +264,7 @@ GameObject:
   - component: {fileID: 563308365}
   - component: {fileID: 563308364}
   m_Layer: 0
-  m_Name: Spawmer
+  m_Name: Spawner 3
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -283,7 +283,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectsToSpawn:
-  - {fileID: 3282615343863370802, guid: 4777a96d2d812a348b95e735570a0b2b, type: 3}
+  - {fileID: 939136292661816381, guid: 9bcf360d76a79df4b8354767708844e8, type: 3}
   minSpawnTime: 0.5
   maxSpawnTime: 3
 --- !u!4 &563308365
@@ -294,7 +294,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 563308363}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.5048285, y: -4.48, z: 10}
+  m_LocalPosition: {x: 11.69, y: -3.79, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 519420032}
@@ -311,7 +311,7 @@ GameObject:
   - component: {fileID: 809421656}
   - component: {fileID: 809421655}
   m_Layer: 0
-  m_Name: Spawmer
+  m_Name: Spawner 2
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -341,7 +341,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 809421654}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.5048285, y: -0.5, z: 10}
+  m_LocalPosition: {x: 11.75, y: -1.43, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 519420032}
@@ -467,7 +467,7 @@ GameObject:
   - component: {fileID: 1913322893}
   - component: {fileID: 1913322892}
   m_Layer: 0
-  m_Name: Spawmer
+  m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -486,9 +486,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectsToSpawn:
-  - {fileID: 3282615343863370802, guid: 4777a96d2d812a348b95e735570a0b2b, type: 3}
-  minSpawnTime: 0.5
-  maxSpawnTime: 3
+  - {fileID: 5542381670269398606, guid: 60ec7d4df3a55244a868b0a91e4f1711, type: 3}
+  minSpawnTime: 2
+  maxSpawnTime: 4
 --- !u!4 &1913322893
 Transform:
   m_ObjectHideFlags: 0
@@ -497,7 +497,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1913322891}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.5048285, y: 2.79, z: 10}
+  m_LocalPosition: {x: 11.55, y: 0.91, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 519420032}
@@ -565,7 +565,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 05b6c118b5346534a8ff5fd297098aba, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -627,7 +627,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 6dfa65129f304fe4fb4c54cc2221bf6e, type: 3}
-  m_Color: {r: 1, g: 0, b: 0.8064976, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -645,8 +645,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1928904009}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.9729208, y: 2.5145, z: 0}
-  m_LocalScale: {x: 1, y: 2.0445, z: 1}
+  m_LocalPosition: {x: -2.0587, y: 2.1371, z: 0}
+  m_LocalScale: {x: 0.8285, y: 1.2898751, z: 1}
   m_Children:
   - {fileID: 17611637}
   m_Father: {fileID: 0}
